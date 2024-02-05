@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "ProjectBella.Api.IntegrationTests": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:54745;http://localhost:54746"
+    }
+  }
+}
