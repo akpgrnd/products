@@ -20,7 +20,7 @@ app.UseCors()
    .UseHttpsRedirection(); 
 
 app
-    .UsePathBase("/api/v1") // rundimentary api versioning 
+    .UsePathBase("/api/v1") // rudimentary api versioning 
     .UseSwagger()
     .UseSwaggerUI()
     ;

@@ -8,6 +8,6 @@ public class UsersRepository_Tests
     //[Fact]
     public void Placeholder()
     {
-        Assert.True(1==1);
+        Assert.True(true);
     }
 }

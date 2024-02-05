@@ -3,7 +3,7 @@
 namespace Products.Module;
 
 // this class returns mock data only
-internal class UsersRepository : IUserRepository
+internal class UserRepository : IUserRepository
 {
     readonly List<UserData> data = [
         new("User 1", Guid.Parse("d57ffca5-26cf-4a51-b165-fdbaad3a296d")),

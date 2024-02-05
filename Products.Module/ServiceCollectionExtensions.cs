@@ -8,7 +8,7 @@ public static class ServiceCollectionExtensions
     {
         services
             .AddSingleton<IProductRepository>(new ProductRepository(new MockData.ProductDatabaseStub()))
-            .AddSingleton<IUserRepository, UsersRepository>();
+            .AddSingleton<IUserRepository, UserRepository>();
 
         return services;
     }
